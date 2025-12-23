@@ -1,0 +1,97 @@
+screen:
+  width: 800
+  height: 600
+  fps: 60
+
+colors:
+  white: [255,255,255]
+  black: [0,0,0]
+  ocean_blue: [20, 50, 100]
+  deep_blue: [10, 30, 70]
+  wave_blue: [40, 80, 140]
+  button_color: [180, 50, 50]
+  button_hover: [220, 80, 80]
+  button_shadow: [100, 30, 30]
+  settings_btn: [70, 130, 180]
+  settings_hover: [100, 160, 210]
+  settings_shadow: [40, 80, 120]
+  green: [50, 200, 50]
+  red: [200, 50, 50]
+  grid_line: [100, 150, 200]
+  cell_empty: [40, 80, 140]
+  cell_hover: [80, 120, 180]
+  ship_color: [100, 100, 100]
+  ship_hover: [150, 150, 150]
+  ship_placed: [80, 80, 80]
+  ship_invalid: [200, 100, 100]
+  gray: [128, 128, 128]
+  hit_red: [255, 50, 50]
+  miss_gray: [150, 150, 150]
+  yellow: [255, 255, 0]
+  dark_red: [150, 0, 0]
+  pixel_green: [0, 255, 0]
+
+audio:
+  default_sfx_volume: 0.5
+  default_music_volume: 0.5
+  default_difficulty: easy
+  default_game_rule: streak
+  default_ships_no_touch: off
+
+paths:
+  assets_dir: "d:/battleship assets"
+  audio_dir: "d:/battleship assets/audio"
+  ships_dir: "d:/battleship assets/ships"
+  video_dir: "d:/battleship assets/videos"
+  audio:
+    hit_sound_path: "c:/users/world/aast workspace/battleship/assets/audio/hitsound.mp3"
+    miss_sound_path: "c:/users/world/aast workspace/battleship/assets/audio/misssound.mp3"
+    battle_music_path: "c:/users/world/aast workspace/battleship/assets/audio/battlemusic.mp3"
+    button_sound_path: "c:/users/world/aast workspace/battleship/assets/audio/buttonpress.mp3"
+    main_menu_music_path: "d:/battleship assets/audio/artofwar.mp3"
+  explosion_sprites:
+    - "c:/users/world/aast workspace/battleship/assets/sprite/explosion_1.png"
+    - "c:/users/world/aast workspace/battleship/assets/sprite/explosion_2.png"
+    - "c:/users/world/aast workspace/battleship/assets/sprite/explosion_3.png"
+    - "c:/users/world/aast workspace/battleship/assets/sprite/explosion_4.png"
+    - "c:/users/world/aast workspace/battleship/assets/sprite/explosion_5.png"
+    - "c:/users/world/aast workspace/battleship/assets/sprite/explosion_6.png"
+    - "c:/users/world/aast workspace/battleship/assets/sprite/explosion_7.png"
+    - "c:/users/world/aast workspace/battleship/assets/sprite/explosion_8.png"
+    - "c:/users/world/aast workspace/battleship/assets/sprite/explosion_9.png"
+    - "c:/users/world/aast workspace/battleship/assets/sprite/explosion_10.png"
+
+
+ships:
+  - name: carrier
+    size: 5
+  - name: battleship
+    size: 4
+  - name: cruiser
+    size: 3
+  - name: submarine
+    size: 3
+  - name: destroyer
+    size: 2
+
+grid:
+  grid_rows: 10
+  grid_cols: 10
+  cell_size: 35
+  battle_cell_size: 28
+
+title:
+  title_fade_in_duration: 2.0
+  title_display_duration: 3.0
+  title_fade_out_duration: 1.5
+
+#explosion animation settings
+explosion_frame_duration: 0.1  # seconds per frame
+
+ai:
+  ai_min_delay: 0.5  # seconds
+  ai_max_delay: 1.5  # seconds
+
+#loading screen
+countdown_duration: 10  # seconds
+
